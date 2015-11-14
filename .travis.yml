@@ -1,0 +1,5 @@
+language: csharp
+solution: NUnitTestProject1.sln
+install:
+  - sudo apt-get install -y gtk-sharp2
+  - nuget restore NUnitTestProject1.sln
